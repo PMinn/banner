@@ -9,9 +9,9 @@ export default (() => {
         \\/_/         \\/_/ \\/_/\\/_/\\/_/\\/_/
                                           
                                           `;
-    if (global) { // nodejs
+    if (typeof global !== 'undefined') { // nodejs
         console.log(banner);
-    } else if (window) { // js
+    } else if (typeof window !== 'undefined') { // js
         console.log(`%c ${banner}`, 'color: #164ba1');
     }
 })();

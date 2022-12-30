@@ -2,9 +2,9 @@
   "name": "banner",
   "version": "1.0.0",
   "description": "",
-  "main": "banner.module.js",
+  "main": "src/banner.mjs",
   "scripts": {
-    "test": "node banner.module.js"
+    "test": "node src/banner.mjs"
   },
   "repository": {
     "type": "git",

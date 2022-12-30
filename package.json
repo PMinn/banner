@@ -1,0 +1,20 @@
+{
+  "name": "banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "banner.module.js",
+  "scripts": {
+    "test": "node banner.module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PMinn/banner.git"
+  },
+  "author": "P'Min",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PMinn/banner/issues"
+  },
+  "homepage": "https://github.com/PMinn/banner#readme",
+  "type": "module"
+}
